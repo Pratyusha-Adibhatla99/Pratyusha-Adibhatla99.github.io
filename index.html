@@ -393,12 +393,12 @@
                 
                 <aside class="list conference aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Last Updated</h2>
+                        <h2 class="heading">Last Updated <span id="lastModified"></span></h2>
                         <div class="content">
-                            <p>Last modified: <span id="lastModified"></span></p>
-                                <script>
-                                    document.getElementById("lastModified").innerText = document.lastModified;
-                                </script>
+                            <script>
+                                const dateOnly = new Date(document.lastModified).toLocaleDateString();
+                                document.getElementById("lastModified").innerText = dateOnly;
+                            </script>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
