@@ -393,8 +393,9 @@
                 
                 <aside class="list conference aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Last Updated <span id="lastModified"></span></h2>
+                        <h2 class="heading">Last Updated: </h2>
                         <div class="content">
+                            <span id="lastModified"></span>
                             <script>
                                 const dateOnly = new Date(document.lastModified).toLocaleDateString();
                                 document.getElementById("lastModified").innerText = dateOnly;
