@@ -2,9 +2,9 @@
 
 ## Tempalte borrowed from:
 
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/free-bootstrap-portfolio-theme-for-web-developers.jpg" alt="Developer Theme" width="750" /></a>
+This is one of my favorite templates I found online.
 
-## Theme Details & Demo
+### Theme Details & Demo
 
 **Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/
 
@@ -16,7 +16,7 @@ The template comes with all of the **source SCSS files included** so the styling
 <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2021/07/developer-template-BS5-darkmode.gif" alt="Developer Theme Dark Mode" width="750" /></a>
 
 
-## Author & License
+### Author & License
 
 This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
@@ -35,13 +35,13 @@ If you'd like to **use the template without the footer attribution link**, you c
 [Linkedin](https://uk.linkedin.com/in/xiaoying)
 
 
-## Latest Version
+### Latest Version
 **Bootstrap 5 v3.2* - 2024-09-16
 
 [Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/?target=changelog)
 
 
-## Features
+### Features
 
 -  Fully Responsive
 -  Light/Dark Mode
@@ -51,11 +51,12 @@ If you'd like to **use the template without the footer attribution link**, you c
 -  FontAwesome icons
 
 
-## Credits
+### Credits
 - [Bootstrap](http://getbootstrap.com/)
 - [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 - [GitHub Activity Stream](http://caseyscarborough.com/projects/github-activity/)
 - [GitHub Calendar Plugin](https://github.com/IonicaBizau/github-calendar)
 - [Vanilla RSS](https://github.com/sdepold/jquery-rss)
 - Profile image: [Ben Smith](https://www.flickr.com/photos/dotbenjamin/2577394151)
+
 
