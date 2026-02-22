@@ -1,3 +1,7 @@
+# My Personal Webpage
+
+## Tempalte borrowed from:
+
 <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/free-bootstrap-portfolio-theme-for-web-developers.jpg" alt="Developer Theme" width="750" /></a>
 
 ## Theme Details & Demo
@@ -54,3 +58,4 @@ If you'd like to **use the template without the footer attribution link**, you c
 - [GitHub Calendar Plugin](https://github.com/IonicaBizau/github-calendar)
 - [Vanilla RSS](https://github.com/sdepold/jquery-rss)
 - Profile image: [Ben Smith](https://www.flickr.com/photos/dotbenjamin/2577394151)
+
