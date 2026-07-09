@@ -110,7 +110,7 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Data Engineer by trade, problem solver by nature. I specialize in building scalable Python/SQL pipelines and RAG architectures that turn raw data into actionable insights. From optimizing financial transaction flows to designing semantic search systems, I thrive on automation and efficiency. When I am not optimizing queries, you will find me experimenting with new recipes in the kitchen or decompressing with a good book.</p>
+                            <p>Data Engineer by trade, problem solver by nature. Data Engineer with 3+ years building production ETL/ELT pipelines across AWS and Azure, processing 1M+ monthly financial transactions with PySpark, advanced SQL, and Databricks. I focus on big-data distributed processing, automated data-quality and schema-drift validation, and dimensional modeling — and currently build retrieval/RAG systems for an LLM agent at Finta. When I am not optimizing queries, you will find me experimenting with new recipes in the kitchen or decompressing with a good book.</p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -121,23 +121,27 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Research Assistant (Data Scientist) - <span class="place"><a href="https://wcsng.ucsd.edu/">UCSD Wireless Communication, Sensing, and Networking Lab</a></span> <span class="year">(2024 - Present)</span></h3>
-                                <p>Architected a Python and SQLite pipeline to process 50+ heterogeneous datasets (HDF5, CSV), reducing preparation time to under 3 minutes. Automated schema validation and metadata extraction while implementing data lineage features to enable efficient querying and version tracking for signal and radar research.</p>
+                                <h3 class="title">Data Engineer - <span class="place"><a href="https://wcsng.ucsd.edu/">Finta</a></span> <span class="year">(May 2026 - Present)</span></h3>
+                                <p>Own Aurora's (LLM agent) document-intelligence and retrieval layer: a hybrid semantic + keyword search-and-ranking system fused with reciprocal rank fusion in Postgres/pgvector, plus a multi-format export pipeline (PDF, DOCX, CSV, Markdown). Design data models and Python backend services for 0-to-1 features, enforcing data integrity via server-side validation and Postgres row-level security, shipped through Git PR review and automated CI/CD.</p>
+                            </div><!--//item-->
+							<div class="item">
+                                <h3 class="title">Research Assistant (Data Scientist) - <span class="place"><a href="https://wcsng.ucsd.edu/">UCSD Wireless Communication, Sensing, and Networking Lab</a></span> <span class="year">(Jan 2025 - July 2025)</span></h3>
+                                <p>Built ETL pipelines with Azure Data Factory orchestrating PySpark jobs on Azure Databricks, cutting LiDAR storage 1.2TB (85%) via automated 3D point-cloud downsampling and Parquet output to ADLS. Architected an end-to-end Medallion (Bronze/Silver/Gold) architecture on ADLS, cutting analytics-readiness time 80% and query times 75%. Deployed a schema-metadata categorization engine achieving 100% automated dataset segregation by sensor type.</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Research Assistant (Multimodal Data &amp; ML Reporting) - <span class="place"><a href="#">University at Buffalo</a></span> <span class="year">(2023 - 2024)</span></h3>
-                                <p>Developed a multimodal content retrieval system by performing feature extraction on video, image, and text datasets. Applied RAG-based embeddings and evaluated strategies using statistical metrics to optimize precision, recall, and low-latency performance.</p>
+                                <h3 class="title">Research Assistant (Multimodal Data &amp; ML Reporting) - <span class="place"><a href="#">University at Buffalo</a></span> <span class="year">(Sep 2024 – Dec 2024)</span></h3>
+                                <p>Built a multimodal vector search pipeline ingesting unstructured video, image, and text — applying OCR and transcription to convert media into retrievable text for low-latency RAG. Optimized ChromaDB indexing with a designed metadata schema, regenerating embeddings and refreshing vector indexes to keep modalities consistent.</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Student Assistant (Analystics &amp; Reporting) - <span class="place"><a href="#">University of Texas at Arlington</a></span> <span class="year">(2022 - 2023)</span></h3>
-                                <p>Designed a centralized SQL database and Python ETL workflows to consolidate fragmented inventory data for predictive modeling. Developed Power BI dashboards to visualize demand trends, identifying key order patterns and improving inventory efficiency by 5%.</p>
+                                <h3 class="title">Student Assistant (Analystics &amp; Reporting) - <span class="place"><a href="#">University of Texas at Arlington</a></span> <span class="year">(Aug 2022 - May 2023)</span></h3>
+                                <p>Designed a centralized SQL database and Python ETL workflows to consolidate fragmented inventory data; automated ingestion and modeling to surface demand patterns, improving inventory efficiency 5%.</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Programmer Analyst (Data &amp; Application Support) - <span class="place"><a href="#">Cognizant - Client: Liberty Mutual Insurance</a></span> <span class="year">(2020 - 2021)</span></h3>
-                                <p>VManaged UAT and production batch workflows for 100k+ monthly insurance transactions, utilizing SQL for source-to-target reconciliation and data validation. Investigated systemic data failures and generated operational analytics reports to support business decision-making.</p>
+                                <h3 class="title">Programmer Analyst (Data &amp; Application Support) - <span class="place"><a href="#">Cognizant - Client: Liberty Mutual Insurance</a></span> <span class="year">(Dec 2020 – Jun 2022)</span></h3>
+                                <p>Optimized AWS EC2 ETL pipelines processing 1M+ monthly financial transactions; monitored health in Datadog and held SLA adherence by resolving 20+ weekly job failures. Orchestrated advanced SQL transformations across Amazon RDS and Redshift, resolving cross-system inconsistencies and stranded payments via DynamoDB metadata. Built automated data-quality frameworks detecting schema drift, null anomalies, and reconciliation issues, reducing data errors 26%.</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Programmer Analyst Trainee - <span class="place"><a href="#">Cognizant</a></span> <span class="year">(2020)</span></h3>
+                                <h3 class="title">Programmer Analyst Trainee - <span class="place"><a href="#">Cognizant</a></span> <span class="year">(Sep 2020 - Dec 2020)</span></h3>
                                 <p>Built a full-stack Spring Boot and Angular application to track live bus routes. Designed relational database schemas and REST APIs for real-time data ingestion, implementing GPS validation logic that reduced record inconsistencies by 20%.</p>
                             </div><!--//item-->
                             
